@@ -1,0 +1,1 @@
+./run_ptpx.sh -design montgomery_mul -tb montgomery_wrap_tb -nbits 32  -pbits 1 -mstage1 1 -mstage2 1 -mstage3 1 -clkname clk -clkperiod 2 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm

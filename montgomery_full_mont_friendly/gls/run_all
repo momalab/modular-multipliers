@@ -1,0 +1,3 @@
+# for 2 ns
+./run_verif.sh -design montgomery_mul -tb montgomery_mul_tb -ntrace 1000 -nbits 32  -pbits 1 -mstage1 1 -mstage2 1 -mstage3 1 -tech 55nm -clkperiod 2  -testcase TC_MONTGOMERY_MUL
+

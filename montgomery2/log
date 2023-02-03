@@ -1,0 +1,8 @@
+montgomery_mul_NBITS32_PBITS2, 0.81, 0.25, 2844.071973
+montgomery_mul_NBITS64_PBITS2, 0.92, 0.25, 4967.927957
+montgomery_mul_NBITS128_PBITS2, 1.07, 0.25, 8805.635923
+montgomery_mul_NBITS256_PBITS2, 1.21, 0.25, 17736.389860
+montgomery_mul_32_2_synth_22nm_.250ns/power.rpt:Design montgomery_mul_NBITS32_PBITS2, 7.632e-03 , 0.0123
+montgomery_mul_64_2_synth_22nm_.250ns/power.rpt:Design montgomery_mul_NBITS64_PBITS2, 0.0144 , 0.0220
+montgomery_mul_128_2_synth_22nm_.250ns/power.rpt:Design montgomery_mul_NBITS128_PBITS2, 0.0256 , 0.0396
+montgomery_mul_256_2_synth_22nm_.250ns/power.rpt:Design montgomery_mul_NBITS256_PBITS2, 0.0508 , 0.0771

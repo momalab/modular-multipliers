@@ -1,0 +1,23 @@
+#./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 32  -pbits 1 -clkname clk -clkperiod 10 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+#./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 64  -pbits 1 -clkname clk -clkperiod 10 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+#./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 128 -pbits 1 -clkname clk -clkperiod 10 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+
+./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 32  -pbits 1 -clkname clk -clkperiod 6 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 64  -pbits 1 -clkname clk -clkperiod 6 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 128 -pbits 1 -clkname clk -clkperiod 6 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+
+
+./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 32  -pbits 1 -clkname clk -clkperiod 2 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 64  -pbits 1 -clkname clk -clkperiod 2 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 128 -pbits 1 -clkname clk -clkperiod 2 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+
+#./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 256 -pbits 1 -clkname clk -clkperiod 10 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+#./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 512 -pbits 1 -clkname clk -clkperiod 10 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+
+./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 256 -pbits 1 -clkname clk -clkperiod 6 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 512 -pbits 1 -clkname clk -clkperiod 6 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+
+./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 256 -pbits 1 -clkname clk -clkperiod 2 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+./run_ptpx.sh -design montgomery_mul -tb montgomery_mul_tb -nbits 512 -pbits 1 -clkname clk -clkperiod 2 -lib "/home/projects/vlsi/libraries/55lpe/ref_lib/arm/std_cells/hvt/timing_lib/nldm/db/sc9_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db" -tech 55nm
+
+

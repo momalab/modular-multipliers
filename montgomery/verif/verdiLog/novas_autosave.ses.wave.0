@@ -1,0 +1,102 @@
+Magic 271485
+Revision Verdi_R-2020.12-SP1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 1916 963 100 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/home/dss545/fhe/dse_mult/montgomery/verif/inter_2.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 0.000000 156159291600.000000
+cursor 146000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+; visible top row signal index
+top 0
+; marker line index
+markerPos 34
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByChange
+
+
+addGroup "montgomery_mul"
+activeDirFile "" "/home/dss545/fhe/dse_mult/montgomery/verif/inter_2.fsdb"
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/clk
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/rst_n
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/enable_p
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/a[127:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/b[127:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/m[127:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/m_size[9:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/y[127:0]
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/done_irq_p
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/a[127:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/a_loc[129:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/b[127:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/b_loc_red[127:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/b_loc_red_2[127:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/bxn[1:1]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/bxn_all[255:0]
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/clk
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/done_irq_p
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/done_irq_p_loc
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/done_irq_p_loc_d
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/enable_p
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/j[31:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/m[127:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/m_size[9:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/mxn[0:1]
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/mxn_done
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/rst_n
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/y[127:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/y_1[127:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/y_loc[128:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/y_loc_accum[129:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/y_loc_red[127:0]
+addSignal -h 15 -UNSIGNED -HEX /montgomery_mul_tb/montgomery_mul/yxn[0:1]
+addSignal -h 15 /montgomery_mul_tb/montgomery_mul/yxn_done_1
+addGroup "G2"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+activeDirFile "" "/home/dss545/fhe/dse_mult/montgomery/verif/inter_2.fsdb"
+
+GETSIGNALFORM_SCOPE_HIERARCHY_BEGIN
+getSignalForm close
+
+"/montgomery_mul_tb"
+
+SCOPE_LIST_BEGIN
+"/montgomery_mul_tb"
+"/montgomery_mul_tb/montgomery_mul"
+SCOPE_LIST_END
+
+GETSIGNALFORM_SCOPE_HIERARCHY_END
+
+

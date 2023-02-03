@@ -1,0 +1,11 @@
+../rtl/add.v
+../rtl/async_dff.v
+../rtl/montgomery_mul.v
+../rtl/mux2x1.v
+../rtl/mxn_calc.v
+../rtl/sub.v
+../rtl/y_calc.v
+./montgomery_mul_tasks.v
+./montgomery_mul_tb.v
+/opt/programs/synopsys/dc/dw/sim_ver/DW01_add.v
+/opt/programs/synopsys/dc/dw/sim_ver/DW01_sub.v

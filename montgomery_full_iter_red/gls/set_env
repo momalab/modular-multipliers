@@ -1,0 +1,40 @@
+#Design module name
+setenv DESIGN          AES_Comp
+
+#Project Directory
+setenv PROJECT_NAME    aes_comp
+
+#Directory in which Project Directory is present
+setenv PROJECT_MODULES /home/projects/power_sim
+
+#Clock Port of the Design
+setenv CLKNAME         CLK
+setenv CLK_PERIOD      10
+
+#Library for Synthesi and Primetime
+setenv SYNTH_LIBRARY   /home/projects/vlsi/libraries/55lpe/55lpe/sc12/HVT_FE/arm/gf/55lpe/sc12_base_hvt/r1p0/db/sc12_55lpe_base_hvt_ss_nominal_max_1p08v_125c.db
+
+#Verilog Library model for functional simulation
+setenv VERIF_LIBRARY   /home/projects/vlsi/libraries/55lpe/55lpe/sc12/HVT_FE/arm/gf/55lpe/sc12_base_hvt/r1p0/verilog/sc12_55lpe_base_hvt.v
+
+#Library Technology
+setenv TECH            55nm
+
+#Number of AES operation for each NUMKEY
+setenv NUMTRACE        5000
+
+setenv NUMKEY          100
+
+setenv VCD_NAME        ${TECH}_${NUMTRACE}_${NUMKEY}.vcd
+
+setenv SIMV_NAME       simv_${TECH}_${NUMTRACE}_${NUMKEY}
+
+setenv TMPDIR          $PROJECT_MODULES/$PROJECT_NAME/gls/vcs_${TECH}_${NUMTRACE}_${NUMKEY}
+
+setenv SYNTH_RUN       ${DESIGN}_${TECH}
+
+setenv SYNOPSYS_SIM_SETUP /home/projects/capstone21/sim/synopsys_sim.setup
+
+setenv INPUTMODE      FIXED
+
+setenv VCS_LICENSE_WAIT 1

@@ -1,0 +1,38 @@
+# for 2 ns
+./run_verif.sh -design montgomery_mul -tb montgomery_wrap_tb -ntrace 1000 -nbits 33  -pbits 2 -tech 55nm -clkperiod 2  
+./run_verif.sh -design montgomery_mul -tb montgomery_wrap_tb -ntrace 1000 -nbits 65  -pbits 2 -tech 55nm -clkperiod 2  
+./run_verif.sh -design montgomery_mul -tb montgomery_wrap_tb -ntrace 1000 -nbits 129 -pbits 2 -tech 55nm -clkperiod 2  
+./run_verif.sh -design montgomery_mul -tb montgomery_wrap_tb -ntrace 1000 -nbits 257 -pbits 2 -tech 55nm -clkperiod 2  
+./run_verif.sh -design montgomery_mul -tb montgomery_wrap_tb -ntrace 1000 -nbits 513 -pbits 2 -tech 55nm -clkperiod 2  
+# for 6 ns
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 32  -pbits 1 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 32  -pbits 2 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 32  -pbits 4 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 32  -pbits 1 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 32  -pbits 2 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 32  -pbits 4 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 64  -pbits 1 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 64  -pbits 2 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 64  -pbits 4 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 64  -pbits 1 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 64  -pbits 2 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 64  -pbits 4 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 128 -pbits 1 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 128 -pbits 2 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 128 -pbits 4 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 128 -pbits 1 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 128 -pbits 2 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 128 -pbits 4 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 256 -pbits 1 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 256 -pbits 2 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 256 -pbits 4 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 256 -pbits 1 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 256 -pbits 2 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 256 -pbits 4 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 512 -pbits 1 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 512 -pbits 2 -tech 55nm -clkperiod 6  
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 512 -pbits 4 -tech 55nm -clkperiod 6  
+## for 10 ns
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 512 -pbits 1 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 512 -pbits 2 -tech 55nm -clkperiod 10 
+#./run_verif.sh -design mod_mul_il_gen_flex -tb mod_mul_il_tb -ntrace 1000 -nbits 512 -pbits 4 -tech 55nm -clkperiod 10 

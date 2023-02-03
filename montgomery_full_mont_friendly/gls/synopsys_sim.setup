@@ -1,0 +1,9 @@
+--VCS MX setup file for ASIC
+--Mapping default work directory
+WORK > DEFAULT
+DEFAULT : /home/dss545/fhe/dse_mult/montgomery_full_mont_friendly/gls/vcs_${DESIGN}_${NBITS}_${PBITS}_${MUL_STAGE1}_${MUL_STAGE2}_${W}_${CLKPERIOD}
+--Library Mapping
+STATS_PKG : ./stat_work
+MEM_PKG : ./mem_work
+--Simulation variables
+TIMEBASE = ps

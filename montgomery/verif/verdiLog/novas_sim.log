@@ -1,0 +1,24 @@
+Invoking simulator...
+
+./vcs_out/simv -sml=verdi +UVM_VERDI_TRACE=UVM_AWARE +fsdb+gate=off -ucli2Proc -ucli
+debImport "-i" "-simflow" "-dbdir" "./vcs_out/simv.daidir"
+*Verdi* Loading libsscore_vcs202012.so
+
+FSDB Dumper for VCS, Release Verdi_R-2020.12-SP1, Linux x86_64/64bit, 03/02/2021
+(C) 1996 - 2021 by Synopsys, Inc.
+
+*Verdi* : Create FSDB file '/home/dss545/fhe/dse_mult/montgomery/verif/inter.fsdb'
+
+*Verdi* : Flush all FSDB Files at 0 ps.
+
+*Verdi* : Enable RPC Server(21446)
+
+srcTBInvokeSim
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12-SP1_Full64; Runtime version R-2020.12-SP1_Full64;  Sep 13 13:12 2021
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 0 ps
+CPU Time:      0.140 seconds;       Data structure size:   0.0Mb
+Mon Sep 13 13:13:55 2021
+debExit

@@ -1,0 +1,3 @@
+simSetSimulator "-vcssv" -exec "./vcs_out/simv" -args " " -uvmDebug on
+debImport "-i" "-simflow" "-dbdir" "./vcs_out/simv.daidir"
+srcTBInvokeSim

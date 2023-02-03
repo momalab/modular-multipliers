@@ -1,0 +1,3 @@
+Command Line: /opt/programs/synopsys/verdi-sx/verdi/R-2020.12-SP1/platform/LINUXAMD64/bin/Novas -i -simflow -simBin ./vcs_out/simv -sx -simOpt  
+uname(Linux aduae260-lap 2.6.32-754.14.2.el6.x86_64 #1 SMP Tue May 14 19:35:42 UTC 2019 x86_64)
+au time 97.456144 13.042018 2.197666 delta 178810880 178810880 total 658960384 658960384

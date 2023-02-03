@@ -1,0 +1,10 @@
+   147	0:40	setenv TECH            55nm
+   151	0:41	setenv CLK_PERIOD  2
+   154	0:41	setenv CLKPERIOD  2
+   186	0:52	setenv VERIF_LIBRARY   /home/projects/vlsi/libraries/55lpe/55lpe/sc12/HVT_FE/arm/gf/55lpe/sc12_base_hvt/r1p0/verilog/sc12_55lpe_base_hvt.v
+   192	0:54	his | grep setenv
+   218	1:05	setenv VERIF_LIBRARY   /home/mtn2/fhe/modules/mod_mul_il/gls/sc12_55lpe_base_hvt.v
+   263	1:23	setenv VERIF_LIBRARY   /home/projects/vlsi/libraries/55lpe/55lpe/sc9/HVT_FE/arm/gf/55lpe/sc9_base_hvt/r1p0/verilog/sc9_55lpe_base_hvt.v
+   265	1:24	#setenv  /home/projects/vlsi/libraries/55lpe/55lpe/sc9/arm/gf/55lpe/sc9_base_hvt/r1p0/verilog/sc9_55lpe_base_hvt.v 
+   267	1:24	setenv VERIF_LIBRARY  /home/projects/vlsi/libraries/55lpe/55lpe/sc9/arm/gf/55lpe/sc9_base_hvt/r1p0/verilog/sc9_55lpe_base_hvt.v 
+   268	1:24	his | grep setenv > set_env_mod_mul

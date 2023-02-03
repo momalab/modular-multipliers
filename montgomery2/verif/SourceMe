@@ -1,0 +1,11 @@
+rm -rf AN.DB vcs_out/*
+./run_verif.sh -design montgomery_mul -nbits 32  -pbits 2 -tb montgomery_mul_tb -ntrace 1000000 $1 $2 -testcase TC_MONTGOMERY_MUL
+#./run_verif.sh -design montgomery_mul -nbits 32  -pbits 2 -tb montgomery_mul_tb -ntrace 1000000 $1 $2 -testcase TC_MODULAR_MUL
+./run_verif.sh -design montgomery_mul -nbits 64  -pbits 2 -tb montgomery_mul_tb -ntrace 1000000 $1 $2 -testcase TC_MONTGOMERY_MUL
+#./run_verif.sh -design montgomery_mul -nbits 64  -pbits 2 -tb montgomery_mul_tb -ntrace 1000000 $1 $2 -testcase TC_MODULAR_MUL
+./run_verif.sh -design montgomery_mul -nbits 128 -pbits 2 -tb montgomery_mul_tb -ntrace 1000000 $1 $2 -testcase TC_MONTGOMERY_MUL
+#./run_verif.sh -design montgomery_mul -nbits 128 -pbits 2 -tb montgomery_mul_tb -ntrace 1000000 $1 $2 -testcase TC_MODULAR_MUL
+./run_verif.sh -design montgomery_mul -nbits 256 -pbits 2 -tb montgomery_mul_tb -ntrace 1000000 $1 $2 -testcase TC_MONTGOMERY_MUL
+#./run_verif.sh -design montgomery_mul -nbits 256 -pbits 2 -tb montgomery_mul_tb -ntrace 1000000 $1 $2 -testcase TC_MODULAR_MUL
+./run_verif.sh -design montgomery_mul -nbits 512 -pbits 2 -tb montgomery_mul_tb -ntrace 1000000 $1 $2 -testcase TC_MONTGOMERY_MUL
+#./run_verif.sh -design montgomery_mul -nbits 512 -pbits 2 -tb montgomery_mul_tb -ntrace 1000000 $1 $2 -testcase TC_MODULAR_MUL

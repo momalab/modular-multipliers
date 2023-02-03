@@ -1,0 +1,39 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 106496 bytes [need 104K bytes if disable swap]
+
+used block: 6 [memory(6) file(0)]
+                 [ 8K(5) 64K(1) { total 104K bytes } ]
+overhead: (9538) bytes for (6) blocks [Average: (1589) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 1(times) 28K(bytes) [5K bytes compressed data from file]
+access => 37111(times) 301M(bytes)
+          [hit ratio: 99.9973%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/dss545/fhe/dse_mult/montgomery/verif/verdiLog)
+used swap file number: (1)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (3)
+closeHead: (1)
+closeTail: (2)
+openCnt: (2)
+fid(2): fd(29) fileName(/home/dss545/fhe/dse_mult/montgomery/verif/verdiLog/_swap_0001#-435490039#18884)
+	size(0) lastModTime(0) curModTime(1631524347)
+	mode(w+b)	hot(0) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/home/dss545/fhe/dse_mult/montgomery/verif/vcs_out/simv.daidir/kdb.elab++/work.lib++/montgomery_mul_tb.v.tdc)
+	size(8691) lastModTime(1631524341) curModTime(1631524341)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(168ee3d0) pre(14d21340) next(0)
+version(200506)
+date(Mar  2 2021 03:35:41)

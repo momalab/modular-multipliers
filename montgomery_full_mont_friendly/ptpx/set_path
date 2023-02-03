@@ -1,0 +1,7 @@
+#Verdi_P-2019.06-SP2-5,
+setenv NOVAS_HOME <installation>/novas/verdi3_<version>
+/opt/programs/synopsys/verdi-sx/verdi/R-2020.12-SP1/
+setenv NOVAS_VERSION verdi3_<version>
+setenv LD_LIBRARY_PATH <installation>/novas/ verdi3_<version> /share/vcst/linux64/:$LD_LIBRARY_PATH
+
+ 

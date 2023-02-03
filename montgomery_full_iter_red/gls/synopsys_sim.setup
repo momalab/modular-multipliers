@@ -1,0 +1,9 @@
+--VCS MX setup file for ASIC
+--Mapping default work directory
+WORK > DEFAULT
+DEFAULT : /data/nyu_projects/dss545/DAC2023/fhe_dse/montgomery_full_iter_red/gls/vcs_${DESIGN}_${NBITS}_${PBITS}_${MUL_STAGE1}_${MUL_STAGE2}_${MUL_STAGE3}_${CLKPERIOD}
+--Library Mapping
+STATS_PKG : ./stat_work
+MEM_PKG : ./mem_work
+--Simulation variables
+TIMEBASE = ps

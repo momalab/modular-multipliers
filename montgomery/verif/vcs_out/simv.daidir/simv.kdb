@@ -1,0 +1,22 @@
+rc file Version 1.0
+
+[Design]
+COMPILE_PATH=/home/dss545/fhe/dse_mult/montgomery/verif
+VCS_HOME=/opt/programs/synopsys/vcs-sx/vcs/R-2020.12-SP1
+VERDI_HOME=/opt/programs/synopsys/verdi-sx/verdi/R-2020.12-SP1
+SystemC=FALSE
+UUM=TRUE
+KDB=TRUE
+USE_NOVAS_HOME=FALSE
+COSIM=FALSE
+TOP=montgomery_mul_tb 
+OPTION=-ssv -ssy 
+ELAB_OPTION=-ssv -ssy 
+ELAB=TRUE
+SIMV_WRAPPER=FALSE
+[vcs]
+RUN_ELABCOM=unset TURBO_LOG_DIR ;\rm -rf /home/dss545/fhe/dse_mult/montgomery/verif/vcs_out/simv.daidir/elabcomLog ;/opt/programs/synopsys/vcs-sx/vcs/R-2020.12-SP1/linux64/bin/elabcom -logdir /home/dss545/fhe/dse_mult/montgomery/verif/vcs_out/simv.daidir/elabcomLog  -simvdaidir /home/dss545/fhe/dse_mult/montgomery/verif/vcs_out/simv.daidir  -elab /home/dss545/fhe/dse_mult/montgomery/verif/vcs_out/simv.daidir/kdb -simflow -topfile /home/dss545/fhe/dse_mult/montgomery/verif/vcs_out/simv.daidir/.elabcomTopFile -ssv -ssy +disable_message+C00380+C00381 +disable_message+C00388+C00389  >& /dev/null  && echo Success >& /home/dss545/fhe/dse_mult/montgomery/verif/vcs_out/simv.daidir/.elabcomReport || echo Fail >& /home/dss545/fhe/dse_mult/montgomery/verif/vcs_out/simv.daidir/.elabcomReport
+
+[Value]
+WREALX=ffff534e50535f58
+WREALZ=ffff534e50535f5a
